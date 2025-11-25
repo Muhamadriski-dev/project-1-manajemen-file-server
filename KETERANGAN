@@ -1,0 +1,13 @@
+1. Membuat direktori
+     Mkdir -p  (otomatis membuat folder dan subfolder) 
+2. Memindahkan file dan copy
+    Mv (memindahkan file) 
+    Cp (copy) 
+3. Set premission
+     Sudo group add (nama grup) 
+     Sudo usermod -aG (namagrup) (nama user) 
+     Sudo chown -R : (namagrup) (namafolder) 
+     Sudo chmod -R 700 (namafolder) 
+     Berpindah user untuk pengecekan 
+4. Menemukan file ekstensu pdf 
+    find  . -name "*.pdf" -mtime -7
